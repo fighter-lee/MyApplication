@@ -1,1 +1,1 @@
-include ':transform', ':transformlib', ':autopacker', ':common', ':common-ui'
+include ':transform', ':transformlib', ':autopacker', ':common', ':common-ui', ':common-download', ':common-https'
