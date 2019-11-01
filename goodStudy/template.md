@@ -2,7 +2,7 @@
 >描述变化的事物，一般为折线图或者柱状图
 
 ## 第一句
-1.As can been seen from the column chart above, remarkably different/similar trends of 主题 are vividly described/demonstrated，
+1.As can be seen from the column chart above, remarkably different/similar trends of 主题 are vividly described/demonstrated，
 
 +which reflects an astonishing social phenomenon hidden in our daily happenings.（此句需要丰富或者修改）
 
@@ -21,7 +21,7 @@ As for 事物3，it almost remained stable at 数字5.
 
 ## 示例
 例1：
-    As can been seen from the column chart above, remarkably different trends of mobile-phone subscriptions between
+    As can be seen from the column chart above, remarkably different trends of mobile-phone subscriptions between
 developing and developed countries are vividly demonstrated.There was a striking growth in mobile-phone subscriptions
 in developing countries,from 0.4 billion in 2000 to 4 billion in 2008.At the meanwhile,mobile-phone subscriptions in
 developed countries remained stable under 1 billion.
@@ -32,7 +32,7 @@ developed countries remained stable under 1 billion.
 3. 事物2: the market share of Japanese car
 4. 事物3: the market share of American car
 
-    As can been seen from the column chart above,remarkably different trends of the market shares of different car 
+    As can be seen from the column chart above,remarkably different trends of the market shares of different car 
 are vividly demonstrated.There was a gradual growth in the market share of home-made car,from 25% in 2008 to 30% 
 in 2009.At the meanwhile,the market share of Japanese car has undergone a significant decline during the same period, 
 descending from 35% to 25%.As for the market share of American car,it almost remained stable at 12%.
@@ -42,7 +42,7 @@ descending from 35% to 25%.As for the market share of American car,it almost rem
 * 事物1:the urban population
 * 事物2:the rural population
 
-    As can been seen from the column chart above,remarkably different trends of population between urban area and rural area 
+    As can be seen from the column chart above,remarkably different trends of population between urban area and rural area 
 are vividly demonstrated.There was a striking growth in the rural population, from 300 million in 1990 to 666 million in 2010. 
 At the meanwhile,the urban population has undergone a slight decline during the same period,descending from 834 million to 
 674 million.
@@ -63,7 +63,7 @@ At the meanwhile,the urban population has undergone a slight decline during the 
 > 注意事物的单复数；
 
 ## 第一句
-1.As can been seen from the table/pie chart/column/line graph,major differences are detected in terms of the proportion 
+1.As can be seen from the table/pie chart/column/line graph,major differences are detected in terms of the proportion 
 of 主题词 among distinct groups.
 
 ## 第二句,点明哪个主体占比大
@@ -88,9 +88,27 @@ While 事物3 comprises a relatively small proportion of 数字3,coming to the l
 * 事物2. people under 41 year old who dissatisfied with job
 * 事物3. people over 50 year old who dissatisfied with job
 
-    As can been seen from the table above,major differences are detected in terms of the proportion of satisfaction of job 
+    As can be seen from the table above,major differences are detected in terms of the proportion of satisfaction of job 
 among distinct groups.Based on the statistics of the chart,people between 41 and 50 who dissatisfied with job occupies the 
 dominant position,accounting for 64%. people under 41 year old who dissatisfied with job takes up the percentage of 33%, 
 ranging for the distant second.While people over 50 year old who dissatisfied with job comprises a relatively small proportion 
 of 10%, coming to the last one.
-  
+
+
+### 2013
+>某高校学生的兼职情况，大一67.77%，大二71.53%，大三71.93%，大四88.24%
+* 主题：taking part-time job by college student
+* 事物1：senior students
+* 事物2：sophomore and junior students
+* 事物3：freshman students
+
+    As can be seen from the table above, major differences are detected in terms of the proportion of taking part-time job by college 
+students among distinct groups. Based on the statistics of the chart, senior students occupy the dominant position, accounting for 88.24%. 
+Sophomore and junior students take up the percentage of 71.53% and 71.93%, ranging for the distant second. While freshman students comprise 
+a relatively small proportion of 67.77%, coming to the last one. 
+
+### 2015
+>某市居民春节假期花销比例，新年礼物40%，交通、聚会吃饭、其他，20%。
+* 主题：Expenditure during Spring holiday
+* 事物1：expenditure for New Year's gift
+* expenditure of traffic and expenditure of taking party
