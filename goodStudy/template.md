@@ -111,4 +111,10 @@ a relatively small proportion of 67.77%, coming to the last one.
 >某市居民春节假期花销比例，新年礼物40%，交通、聚会吃饭、其他，20%。
 * 主题：Expenditure during Spring holiday
 * 事物1：expenditure for New Year's gift
-* expenditure of traffic and expenditure of taking party
+* 事物2：expenditure of traffic and dinner parties
+
+    As can be seen from the table above, major differences are detected in terms of the proportion of expenditure during Spring holiday 
+among distinct groups. Based on the statistics of the chart, expenditure for New Year's gifts occupies the dominant position, accounting 
+for 40%. Expenditure of traffic and dinner parties take up the percentage of 20% separately, ranging for distant second. 
+(如果事物数值一样，用separately修饰)
+

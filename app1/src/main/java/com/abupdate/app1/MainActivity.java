@@ -35,6 +35,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void test() {
-        //DABBB
+        //CABBB BABDA D
+
+    }
+
+    public void wrong() {
+        //1、10、
     }
 }
