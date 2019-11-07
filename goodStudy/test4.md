@@ -227,27 +227,43 @@ seem to be aligned.
 
 　　Text 3
 
-　　This year marks exactly two centuries since the publication of Frankenstein; or, The Modern Prometheus, by Mary Shelley. Even before the invention of the electric light bulb, the author produced a remarkable work of speculative fiction that would foreshadow many ethical questions to be raised by technologies yet to come.
+　　This year marks exactly two centuries since the publication of Frankenstein; or, The Modern Prometheus, by Mary Shelley.
+Even before the invention of the electric light bulb, the author produced a remarkable work of speculative fiction that 
+would foreshadow many ethical questions to be raised by technologies yet to come.
 
-　　Today the rapid growth of artificial intelligence (AI) raises fundamental questions: “What is intelligence, identity, or consciousness? What makes humans humans?”
+　　Today the rapid growth of artificial intelligence (AI) raises fundamental questions: “What is intelligence, identity, 
+or consciousness? What makes humans humans?”
 
-　　What is being called artificial general intelligence, machines that would imitate the way humans think, continues to evade scientists. Yet humans remain fascinated by the idea of robots that would look, move, and respond like humans, similar to those recently depicted on popular sci-fi TV series such as “Westworld” and “Humans”.
+　　What is being called artificial general intelligence, machines that would imitate the way humans think, continues 
+to evade scientists. Yet humans remain fascinated by the idea of robots that would look, move, and respond like humans, 
+similar to those recently depicted on popular sci-fi TV series such as “Westworld” and “Humans”.
 
-　　Just how people think is still far too complex to be understood, let alone reproduced, says David Eagleman, a Stanford University neuroscientist. “We are just in a situation where there are no good theories explaining what consciousness actually is and how you could ever build a machine to get there.”
+　　Just how people think is still far too complex to be understood, let alone reproduced, says David Eagleman, a 
+Stanford University neuroscientist. “We are just in a situation where there are no good theories explaining what 
+consciousness actually is and how you could ever build a machine to get there.”
 
-　　But that doesn’t mean crucial ethical issues involving AI aren’t at hand. The coming use of autonomous vehicles, for example, poses thorny ethical questions. Human drivers sometimes must make split-second decisions. Their reactions may be a complex combination of instant reflexes, input from past driving experiences, and what their eyes and ears tell them in that moment. AI “vision” today is not nearly as sophisticated as that of humans. And to anticipate every imaginable driving situation is a difficult programming problem.
+　　But that doesn’t mean crucial ethical issues involving AI aren’t at hand. The coming use of autonomous vehicles, 
+for example, poses thorny ethical questions. Human drivers sometimes must make split-second decisions. Their reactions 
+may be a complex combination of instant reflexes, input from past driving experiences, and what their eyes and ears tell 
+them in that moment. AI “vision” today is not nearly as sophisticated as that of humans. And to anticipate every 
+imaginable driving situation is a difficult programming problem.
 
-　　Whenever decisions are based on masses of data, “you quickly get into a lot of ethical questions,” notes Tan Kiat How, chief executive of a Singapore-based agency that is helping the government develop a voluntary code for the ethical use of AI. Along with Singapore, other governments and mega-corporations are beginning to establish their own guidelines. Britain is setting up a data ethics center. India released its AI ethics strategy this spring.
+　　Whenever decisions are based on masses of data, “you quickly get into a lot of ethical questions,” notes Tan Kiat 
+How, chief executive of a Singapore-based agency that is helping the government develop a voluntary code for the ethical 
+use of AI. Along with Singapore, other governments and mega-corporations are beginning to establish their own guidelines. 
+Britain is setting up a data ethics center. India released its AI ethics strategy this spring.
 
-　　On June 7 Google pledged not to “design or deploy Al” that would cause “overall harm,” or to develop Al-directed weapons or use AI for surveillance that would violate international norms. It also pledged not to deploy AI whose use would violate international laws or human rights.
+　　On June 7 Google pledged not to “design or deploy Al” that would cause “overall harm,” or to develop Al-directed 
+weapons or use AI for surveillance that would violate international norms. It also pledged not to deploy AI whose use 
+would violate international laws or human rights.
 
-　　While the statement is vague, it represents one starting point. So does the idea that decisions made by AI systems should be explainable, transparent, and fair.
+　　While the statement is vague, it represents one starting point. So does the idea that decisions made by AI systems 
+should be explainable, transparent, and fair.
 
-　　To put it another way: How can we make sure that the thinking of
+　　To put it another way: How can we make sure that the thinking of intelligent machines reflects humanity’s highest 
+values? Only then will they be useful servants and not Frankenstein’s out-of-control monster.
 
-　　intelligent machines reflects humanity’s highest values? Only then will they be useful servants and not Frankenstein’s out-of-control monster.
-
-　　31. Mary Shelley's novel Frankenstein is mentioned because it
+　　31. Mary Shelley's novel Frankenstein is mentioned because it C
 
 　　A.fascinates Al scientists all over the world.
 
@@ -257,19 +273,33 @@ seem to be aligned.
 
 　　D.has sparked serious ethical controversies
 
-　　32. In David Eagleman's opinion, our current knowledge of consciousness A.helps explain artificial intelligence. B.can be misleading to robot making. C.inspires popular sci-fi TV series. D.is too limited for us to reproduce it
+　　32. In David Eagleman's opinion, our current knowledge of consciousness D
 
-　　33.The solution to the ethical issues brought by autonomous vehicles
+   A.helps explain artificial intelligence. 
+    
+   B.can be misleading to robot making. 
+    
+   C.inspires popular sci-fi TV series. 
+    
+   D.is too limited for us to reproduce it
 
-　　A.can hardly ever be found. B.is still beyond our capacity. C.causes little public concern. D.has aroused much curiosity.
+　　33.The solution to the ethical issues brought by autonomous vehicles A （B）
 
-　　34.The author's attitude toward Google's pledges is one of
+　 A.can hardly ever be found. 
+    
+   B.is still beyond our capacity. 
+    
+   C.causes little public concern. 
+    
+   D.has aroused much curiosity.
+
+　　34.The author's attitude toward Google's pledges is one of C (A)
 
 　　A.affirmation B.skepticism.
 
 　　C.contempt D.respect.
 
-　　35.Which of the following would be the best title for the text?
+　　35.Which of the following would be the best title for the text? C
 
 　　A.Al's Future: In the Hands of Tech Giants
 
@@ -282,65 +312,84 @@ seem to be aligned.
 
 
 Text 4
-　　States will be able to force more people to pay sales tax when they make online purchases under a Supreme Court decision Thursday that will leave shoppers with lighter wallets but is a big financial win for states.
+　　States will be able to force more people to pay sales tax when they make online purchases under a Supreme Court 
+decision Thursday that will leave shoppers with lighter wallets but is a big financial win for states.
 
-　　The Supreme Court's opinion Thursday overruled a pair of decades-old decisions that states said cost them billions of dollars in lost revenue annually. The decisions made it more difficult for states to collect sales tax on certain online purchases.
+   The Supreme Court’s opinion Thursday overruled a pair of decades-old decisions that states said cost them billions of 
+dollars in lost revenue annually. The decisions made it more difficult for states to collect sales tax on certain 
+online purchases.
 
-　　The cases the court overturned said that if a business was shipping a customer's purchase to a state where the business didn't have a physical presence such as a warehouse or office, the business didn't have to collect sales tax for the state. Customers were generally responsible for paying the sales tax to the state themselves if they weren't charged it, but most didn't realize they owed it and few paid.
+   The cases the court overturned said that if a business was shipping a customer’s purchase to a state where the 
+business didn’t have a physical presence such as a warehouse or office, the business didn’t have to collect sales 
+tax for the state. Customers were generally responsible for paying the sales tax to the state themselves if they 
+weren’t charged it, but most didn’t realize they owed it and few paid.
 
-　　Justice Anthony Kennedy wrote that the previous decisions were flawed. “Each year the physical presence rule becomes further removed from economic reality and results in significant revenue losses to the States,” he wrote in an opinion joined by four other justices. Kennedy wrote that the rule “limited states' ability to seek long-term prosperity and has prevented market participants from competing on an even playing field.”
+   Justice Anthony Kennedy wrote that the previous decisions were flawed. “Each year the physical presence rule becomes 
+further removed from economic reality and results in significant revenue losses to the States,” he wrote in an opinion 
+joined by four other justices. Kennedy wrote that the rule “limited states’ ability to seek long-term prosperity and has 
+prevented market participants from competing on an even playing field.”
 
-　　The ruling is a victory for big chains with a presence in many states, since they usually collect sales tax on online purchases already. Now, rivals will be charging sales tax where they hadn't before. Big chains have been collecting sales tax nationwide because they typically have physical stores in whatever state a purchase is being shipped to. Amazon.com, with its network of warehouses, also collects sales tax in every state that charges it, though third-party sellers who use the site don't have to.
+   The ruling is a victory for big chains with a presence in many states, since they usually collect sales tax on online 
+purchases already. Now, rivals will be charging sales tax where they hadn’t before. Big chains have been collecting 
+sales tax nationwide because they typically have physical stores in whatever state a purchase is being shipped to. 
+Amazon.com, with its network of warehouses, also collects sales tax in every state that charges it, though third-party 
+sellers who use the site don’t have to.
 
-　　Until now, many sellers that have a physical presence in only a single state or a few states have been able to avoid charging sales taxes when they ship to addresses outside those states. Sellers that use eBay and Etsy, which provide platforms for smaller sellers, also haven't been collecting sales tax nationwide. Under the ruling Thursday, states can pass laws requiring out-of-state sellers to collect the state's sales tax from customers and send it to the state.
+   Until now, many sellers that have a physical presence in only a single state or a few states have been able to avoid 
+charging sales taxes when they ship to addresses outside those states. Sellers that use eBay and Etsy, which provide 
+platforms for smaller sellers, also haven’t been collecting sales tax nationwide. Under the ruling Thursday, states 
+can pass laws requiring out-of-state sellers to collect the state’s sales tax from customers and send it to the state.
 
-　　Retail trade groups praised the ruling, saying it levels the playing field for local and online businesses. The losers, said retail analyst Neil Saunders, are online-only retailers, especially smaller ones. Those retailers may face headaches complying with various state sales tax laws. The Small Business & Entrepreneurship Council advocacy group said in a statement, "Small businesses and internet entrepreneurs are not well served at all by this decision."
+   Retail trade groups praised the ruling, saying it levels the playing field for local and online businesses. The losers, 
+ said retail analyst Neil Saunders, are online-only retailers, especially smaller ones. Those retailers may face 
+ headaches complying with various state sales tax laws. The Small Business & Entrepreneurship Council advocacy group 
+ said in a a statement, “Small businesses and internet entrepreneurs are not well served at all by this decision.”
 
-　　36. The Supreme Court decsion Thursday will
+36. The Supreme Court decision Thursday will  C
 
-　　A . Dette business’relutions with states
+A. Dette business’ relutions with states
 
-　　B. put most online business in a dilemma
+B. put most online business in a dilemma
 
-　　C. make more online shoppers pay sules tax
+C. make more online shoppers pay sales tax
 
-　　D. force some states to cut sales tax
+D. forces some states to cut sales tax
 
-　　37. It can be learned from paragraphs 2 and 3 that the overruled desicisuns
+37. It can be learned from paragraphs 2 and 3 that the overruled decisions  D
 
-　　A . have led to the domainance of e-commerce
+A. have led to the dominance of e-commerce
 
-　　B . have cost consumers a lot over the years
+B. have cost consumers a lot over the years
 
-　　C. were widely criticzed by online purchases
+C. were widely criticized by online purchases
 
-　　D. were consider upfavorable by states
+D. were considered up favorable by states
 
-　　38. Auording to Justice Anthony Kennedy , the physical presernce rule has
+38. According to Justice Anthony Kennedy, the physical presence rule has A (C)
 
-　　A. hindered economic development .
+A. hindered economic development
 
-　　B. brought prosperity to the country
+B. brought prosperity to the country
 
-　　C. harmed fair market competition
+C. harmed fair market competition
 
-　　D. Doosted growth in states , revenue
+D. boosted growth in states revenue
 
-　　39. Who are most likely to welcome the Supreme Court ruling
+39. Who are most likely to welcome the Supreme Court ruling C (B)
 
-　　A. Internet enterpreneurs B. Big-chair owners
+A. Internet entrepreneurs   B. Big-chain owners
 
-　　B. Third-party sellers D. Small retailers
+C. Third-party sellers      D. Small retailers
 
-　　40. In dealing with the Supreme Court decision Thursday ,the author
+40. In dealing with the Supreme Court decision Thursday, the author D
 
-　　A. gives a factual account of it ard discusses its consequences
+A. gives a factual account of it and discusses its consequences
 
-　　B. describes the long ard complicated process of its making
+B. describes the long and complicated process of its making
 
-　　C. pressents its main points with conflicting views on them
+C. presents its main points with conflicting views on them
 
-　　D. cities some saces related to it ard analyzes their implications
+D. cities some saces related to it and analyzes their implications
 
 　　Part B
 
