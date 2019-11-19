@@ -5,6 +5,11 @@
 1. Obviously, a variety of complicated factors contribute to 图标现象, with the following ones being the foremost.
 明显地，各种复杂的因素导致了图标的现象，下面几种最为重要。
 
+## 步骤
+1. 找主体和客体：如人和手机；游客和博物馆；人和城市；
+2. 找主观原因：如使用手机，有沟通的需求，有娱乐的需求；去博物馆，有求知的需求；去城市，有追求更好的生活的需求；
+3. 找客观原因：手机厂商的快速发展,提供给人更合理价格的产品；博物馆快速发展，提供给人更多种类的博物馆；城市中有更多的社会资源，提供给城市人更多的就业机会；
+
 ## 消费类
 
 ### 第二句
@@ -50,12 +55,21 @@ Obviously ,the ___ also exerts a positive impact on ___.
  
 ## 例
 ### 2017 我国博物馆数量和参观人数
-1.主体：游客；客体：博物馆； tourist,museum
-2.个人原因：为了获取知识与获取更大的视野：acquire knowledge and achieve a much wider horizon.
-3.客观原因：博物馆行业的快速发展提供给人更多主题的博物馆，博物馆数量的增长也促进了人们去参观博物馆：Museum
+1.主体：游客；客体：博物馆； tourist/visitor,museum
+2.个人原因：为了获取知识与获取更大的视野：acquire knowledge and achieve a much wider horizon./broaden horizon/gain valuable knowledge
+3.客观原因：博物馆行业的快速发展提供给人更多主题的博物馆，博物馆数量的增长也促进了人们去参观博物馆：Museum industry
 
    Obviously, a variety of complicated factors contribute to the increase of visitors to the museum, with the following ones being the foremost. 
 Firstly, as for tourists, it is a much strong desire rooted in their nature to acquire knowledge and achieve a much wider horizon, correspondingly, 
-visit museum enables them to explore the word and acquire knowledge more easily. Secondly, the museum industry has been expanding significantly in 
+visiting museum enables them to explore the word and acquire knowledge more easily. Secondly, the museum industry has been expanding significantly in 
 recent years, thus providing people with various kinds of museums. Obviously, the rapid development of museums also exerts a positive impact on the increase 
 of visitors to the museum.
+模板中的替换句：thus providing the residents with a wide variety of choices.
+
+   明显，各种复杂的因数导致了博物馆游客的增加，下面的原因最为重要。首先，对于游客，每个人都有根植于内心的渴望去获取知识和开括视野吗，相应的，参观博物馆巧合能使人们更容易的去
+探索世界和获取知识。换言之，去博物馆能改精确的满足人民需求，这也是图标现象的部分原因。第二，博物馆行业这些年快速发展，因此提供给游客更多类型的选择。很明显，博物馆的快速发展
+也对参观博物馆的游客的增加发挥了积极作用。
+    Obviously, a variety of complicated factors contribute to the increase of visitors to museums, with the following ones being the foremost.
+Firstly, as for tourists, it is a much strong desire rooted in their nature to acquire knowledge and achieve a wider horizon, correspondingly, 
+visiting museum enable them to explore the word and acquire knowledge more easily. In other world, visiting museums precisely meets the needs of 
+all people, which can partly account for the phenomenon shown in the chart.
