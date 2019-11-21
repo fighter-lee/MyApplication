@@ -71,7 +71,7 @@ of visitors to the museum.
 也对参观博物馆的游客的增加发挥了积极作用。
     Obviously, a variety of complicated factors contribute to the increase of visitors to museums, with the following ones being the foremost.
 Firstly, as for tourists, it is a much strong desire rooted in their nature to acquire knowledge and achieve a wider horizon, correspondingly, 
-visiting museum enable them to explore the word and acquire knowledge more easily. In other world, visiting museums can precisely meet the needs of 
+visiting museum enable them to explore the word and acquire knowledge more easily. In other words, visiting museums can precisely meet the needs of 
 all people, which can partly account for the phenomenon shown in the chart. Secondly, the museum industry has been expanding significantly in recent 
 years, thus providing the residents with a wide variety of choices. Obviously, the rapid development of museums also exerts a positive impact on 
 people's going out for visiting museums.
@@ -79,5 +79,32 @@ people's going out for visiting museums.
 
 ### 2016 大学生旅游的目的(主要为欣赏风景和缓解压力)
 1. 主体：大学生，客体：旅游景点
-2. 主观原因：
+2. 主观原因：娱乐和放松
+3. 客观原因：旅游业的快速发展
+
+   Obviously, a variety of complicated factors contribute to the phenomenon, with the following ones being the foremost.
+For one things, as for university student, it is a much strong desire rooted in their nature to enjoying and relaxing, correspondingly, 
+tourism enable them to enjoy the scenery and relax themselves more easily. In other words, going out for touring can 
+precisely meet the needs of university student, which can partly account for the phenomenon shown in the chart. For another things, 
+the tourism industry has been expanding significantly in recent years, thus providing university student with a wide variety of 
+choices. Obviously, the rapid development of tourism also exerts a positive impact on university student's going out for touring.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
