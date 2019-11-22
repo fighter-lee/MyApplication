@@ -83,16 +83,21 @@ people's going out for visiting museums.
 3. 客观原因：旅游业的快速发展
 
    Obviously, a variety of complicated factors contribute to the phenomenon, with the following ones being the foremost.
-For one things, as for university student, it is a much strong desire rooted in their nature to enjoying and relaxing, correspondingly, 
-tourism enable them to enjoy the scenery and relax themselves more easily. In other words, going out for touring can 
+For one things, as for university student, it is a much strong desire rooted in their nature to enjoying and relaxing themselves, correspondingly, 
+tourism enable them to enjoy the scenery and relax their mind more easily. In other words, going out for touring can 
 precisely meet the needs of university student, which can partly account for the phenomenon shown in the chart. For another things, 
 the tourism industry has been expanding significantly in recent years, thus providing university student with a wide variety of 
 choices. Obviously, the rapid development of tourism also exerts a positive impact on university student's going out for touring.
 
+### 2015 市民春节花销比例（新年礼物最多）
+1. 主体：市民，客体：新年礼物
+2. 主观原因：获得高质量的友谊以及好的家庭关系
+3. 客观原因：居民生活水平的提高、礼物行业的发展
 
-
-
-
+   Obviously, a variety of complicated factors contribute to the phenomenon that the residents are willing to cost more to purchase gifts, 
+with the following being the foremost. For one things, as for residents, it is a much strong desire rooted in their nature to get high-quality friendship 
+and family relationship, correspondingly, giving friends New Year's gifts enable them to shorten the distant with their friends much easily.
+For another things,  
 
 
 
