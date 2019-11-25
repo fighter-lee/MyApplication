@@ -25,6 +25,7 @@ As for 事物3，it almost remained stable at 数字5.
 developing and developed countries are vividly demonstrated.There was a striking growth in mobile-phone subscriptions
 in developing countries,from 0.4 billion in 2000 to 4 billion in 2008.At the meanwhile,mobile-phone subscriptions in
 developed countries remained stable under 1 billion.
+ 
 
 例2：2008、2009年国内轿车市场部分品牌市场份额示意图（国产品牌、日系品牌、美系品牌）柱状图
 1. 主题:  the market shares of different car
@@ -33,7 +34,7 @@ developed countries remained stable under 1 billion.
 4. 事物3: the market share of American car
 
     As can be seen from the column chart above,remarkably different trends of the market shares of different car 
-are vividly demonstrated.There was a gradual growth in the market s hare of home-made car,from 25% in 2008 to 30% 
+are vividly demonstrated.There was a gradual growth in the market share of home-made car,from 25% in 2008 to 30% 
 in 2009.At the meanwhile,the market share of Japanese car has undergone a significant decline during the same period, 
 descending from 35% to 25%.As for the market share of American car,it almost remained stable at 12%.
 

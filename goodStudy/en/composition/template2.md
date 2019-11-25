@@ -96,10 +96,16 @@ choices. Obviously, the rapid development of tourism also exerts a positive impa
 
    Obviously, a variety of complicated factors contribute to the phenomenon that the residents are willing to cost more to purchase gifts, 
 with the following being the foremost. For one things, as for residents, it is a much strong desire rooted in their nature to get high-quality friendship 
-and family relationship, correspondingly, giving friends New Year's gifts enable them to shorten the distant with their friends much easily.
-For another things,  
+and family relationship, correspondingly, giving friends New Year's gifts enable them to shorten the distant with their friends much easily. 
+In other words, giving presents can precisely meet the needs of people who want to go on well with friends, which can partly account for the 
+phenomenon shown in the chart. For another things,  Chinese industry has been expanding significantly in recent years, thus providing people 
+with a variety of products at a reasonable price. Obviously, the manufacturers' rapid development also exerts a positive impact on  people's 
+gift-giving behavior.
 
 
+
+
+   
 
 
 
