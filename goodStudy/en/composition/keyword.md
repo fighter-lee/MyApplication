@@ -3,6 +3,7 @@
 百万：million  十亿：billion 
 
 人口：population
+比例：proportion
 
 country：America/American Japan/Japanese Britain/British 
 
