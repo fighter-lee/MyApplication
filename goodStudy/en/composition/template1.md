@@ -63,6 +63,8 @@ At the meanwhile,the urban population has undergone a slight decline during the 
 > 描述各个主体的占比大小；
 > 注意事物的单复数；
 
+从表格中可以看出，重要的差异被发现，根据不同群体之间（）的比例。根据图表统计，（）占主导地位，占64％。
+
 ## 第一句
 1.As can be seen from the table/pie chart/column/line graph,major differences are detected in terms of the proportion 
 of 主题词 among distinct groups.
