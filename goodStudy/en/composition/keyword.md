@@ -29,6 +29,7 @@ physical exercise 锻炼身体
 be satisfied with life 对生活满意
 improve living standard 提高生活水平  the improvement of residents' living standard
 
+
 人与人之间
 face-to-face communication 面对面交流
 shorten the distance with others 拉近人与人的距离
