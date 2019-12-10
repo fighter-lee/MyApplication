@@ -5,16 +5,33 @@
 人口：population
 比例：proportion
 
+negative
+it is appropriate/advisable for sb to do sth.
+it is wise to do
+In addition
+in conclusion
+
 country：America/American Japan/Japanese Britain/British 
 
 adult/child/adolescent/old people
 
 Primary school student/middle school student/high school student/university student
 
+people less than 40 years old
+people over 50 years old
+people between 41 and 50 years old
+middle-age people
+
 employee和employer
 
 single-use plastic 一次性塑料
 single-use chopsticks 一次性筷子
+
+physical exercise 体育锻炼
+number of steps per day 一天的步数
+amount of exercise per day 一天的运动量
+
+the reading quantity 阅读量
 
 需求：
 
