@@ -15,11 +15,13 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
     }
 
     public void click1(View view) {
-
+//        striking/gradual growth/decline;
+//        significant/slight decline/growth
+//        （） takes th
+        //        e percentage of (), ranging for the close/distant second.
         new AlertDialog.Builder(this)
                 .setTitle("title")
                 .setMessage("message:aaaaaaaa/bbbbbbbb/cccccccccccc")
@@ -30,17 +32,22 @@ public class MainActivity extends AppCompatActivity {
 
                     }
                 })
+                .setCancelable(true)
                 .create()
                 .show();
-
     }
 
     public void test() {
-        //CABBB BABDA D
 
+        //CABBB BABDA D
     }
 
     public void wrong() {
-        //1、10、
+        //1、10、people ch
+
+        // 1.major differences detected in terms of the proportions of () among distinct groups.
+        //2.Based on the statistics of the chart, () occupy the dominant position, accounting for ().
+        //3.() take the percentage of 5%, ranging for the close/distant second.
+        //4. While () comprise a relatively small proportion of 10%, coming to the last one.
     }
 }

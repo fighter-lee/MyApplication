@@ -21,7 +21,7 @@ people less than 40 years old
 people over 50 years old
 people between 41 and 50 years old
 middle-age people
-
+gym 体育馆/健身房
 employee和employer
 
 single-use plastic 一次性塑料

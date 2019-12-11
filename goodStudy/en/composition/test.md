@@ -7,7 +7,7 @@ among distinct groups. Based on the statistics of the chart, ___ occupy the domi
 ranging for the distant/close second. While ____ comprise the relatively small proportion of ___, coming to the last one. 
 
     Obviously, a variety of complicated factors contribute to the phenomenon, with the following ones being the foremost. 
-In the first place, as for ___, it is a strong much desire rooted in their nature to _____, correspondingly, ____ enable them to ___ much easily. 
+In the first place, as for ___, it is a much strong desire rooted in their nature to _____, correspondingly, ____ enable them to ___ much easily. 
 In other words, ___ can precisely meet the needs of ___, which can partly account for the phenomenon shown in the chart. 
 In the second place, ___ has been expanding significantly in recent years, thus providing people ____(a wide variety of product in a reasonable price). 
 Obviously, ___(the manufacturers's) rapid development also exerts a positive impact on people's ____.

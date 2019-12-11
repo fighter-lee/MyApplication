@@ -46,7 +46,7 @@ dominant position, accounting for 60%. The people less than 40 years old who dis
 ranging for the distant second. While the people over 50 years old who dissatisfied with jobs comprise the relatively small proportion 
 of 10%, coming to the last one.
    Obviously, a variety of complicated factors contribute to the phenomenon, with the following ones being the foremost. For one things, 
-As for middle-aged people, it is a strong much desire rooted in their nature to possess a good life, correspondingly, good jobs enable 
+As for middle-aged people, it is a much strong desire rooted in their nature to possess a good life, correspondingly, good jobs enable 
 them to enjoy their life more easily. In other words, bad jobs can not meet the needs of people who desire to own a relaxing life, which 
 can partly accounting for the phenomenon shown in the chart. For another things, the middle-age's living pressure has been expanding gradually 
 in recent years, thus exerting an impact on people's satisfaction with jobs.

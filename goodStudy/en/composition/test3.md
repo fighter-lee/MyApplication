@@ -60,7 +60,7 @@ There was a gradual decline in the proportion of graduates who choose to work, f
 the proportion of graduates who choose to explore a higher degree has undergone a significant growth during the same period, ascending from 26% 
 to 34%. As for the proportion of the graduates who choose to explore their own business, it almost remained stable under 3%.
    Obviously, a variety of complicated factors contribute to the phenomenon, with the following ones being the foremost. 
-For one things, as for the graduates, it is a strong much desire rooted in their nature to possess a bright future, correspondingly, 
+For one things, as for the graduates, it is a much strong desire rooted in their nature to possess a bright future, correspondingly, 
 having a higher degree enable them to find a good job more easily. In other words, exploring a higher degree can precisely meet the 
 needs of graduates, which can partly account for the phenomenon shown in the chart. For another things, the graduates' employment 
 pressure has been raising gradually in recent years, thus exerting an impact on graduates' future choices.
