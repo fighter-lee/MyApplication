@@ -32,7 +32,8 @@ number of steps per day 一天的步数
 amount of exercise per day 一天的运动量
 
 the reading quantity 阅读量
-
+number - 用于可数的对象+可数名词; amount - 用于不可数对象+集合名词
+ 
 需求：
 
 个人相关
@@ -45,7 +46,9 @@ keep healthy 保持健康
 physical exercise 锻炼身体
 be satisfied with life 对生活满意
 improve living standard 提高生活水平  the improvement of residents' living standard
-
+achieve a wider horizon
+acquire knowledge
+try something new
 
 人与人之间
 face-to-face communication 面对面交流
@@ -100,6 +103,16 @@ manufacturing 制造业
 41. 老师授课能力teacher's teaching ability
 42. 通过考试难易度the difficulty degree of passing the exam
 43. 个人兴趣爱好personal interest
+foreign famous universities
+domestic Famous University
+theater 剧院
+movie theater 电影院
+number of Masters Admissions
+electric car
+wear glasses
+short sight近视
+travel abroad 出国旅游
+
 
 We should bear in mind that the spirit of 主题词 is of great importance to both our life and study
 
