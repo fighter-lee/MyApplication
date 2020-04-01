@@ -1,1 +1,17 @@
-include ':transform', ':transformlib', ':autopacker', ':common', ':common-ui', ':common-download', ':common-https', ':common-mqtt', ':app1', ':nantest', ':upnptest', ':common-lancomm'
+//include ':transform',
+//        ':transformlib',
+//        ':autopacker',
+//        ':common',
+//        ':common-ui',
+//        ':common-download',
+//        ':common-https',
+//        ':common-mqtt',
+//        ':app1',
+//        ':nantest',
+//        ':common-lancomm',
+//        ':mcu-test'
+include ':2712test'
+include ':common-ui-kt'
+include ':common-kt'
+include ':common-download-kt'
+include ':common-https-kt'

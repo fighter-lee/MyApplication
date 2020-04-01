@@ -4,7 +4,6 @@ import android.content.Context;
 import android.net.wifi.WifiInfo;
 import android.net.wifi.WifiManager;
 import android.os.Bundle;
-import android.os.Environment;
 import android.util.Log;
 import android.view.View;
 import android.widget.ScrollView;
@@ -35,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView tvLogcat;
     private ScrollView scrollView;
     private long startTime;
-    private long fileSize = 133602353;
+    private long fileSize = 41915579L;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
     private void startFileDownServer() {
         List<SharedFile> sharedFiles = new ArrayList<>();
         SharedFile sharedFile1 = new SharedFile();
-        String filePath = Environment.getExternalStorageDirectory().getAbsolutePath() + "/update.zip";
+        String filePath = "/storage/emulated/0/ota/share/update.zip";
         sharedFile1.setPath(filePath);
         sharedFiles.add(sharedFile1);
         FileSerer serer = new FileSerer(sharedFiles);
@@ -77,9 +76,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void click_download_file(View view) {
         print("start download");
-        DownEntity downEntity = new DownEntity().setFilePath(getFilesDir().getAbsolutePath() + "/update.zip")
-                .setFileSize(fileSize)
-                .setUrl("http://172.18.7.175:8089/storage/emulated/0/update.zip");
+        DownEntity downEntity = new DownEntity().setFilePath("/storage/emulated/0/ota/download/update.zip")
+                .setFileSize(41915579L)
+//                .setVerifyCode("d7597cc82214f2f0f820bc860b802a1e")
+                .setUrl("http://192.168.0.183:8089/storage/emulated/0/ota/share/update.zip");
         DLManager.getInstance().add(downEntity);
         DLManager.getInstance().execAsync(new SimpleUIDownListener() {
             @Override
