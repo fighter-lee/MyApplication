@@ -11,7 +11,7 @@
 //        ':common-lancomm',
 //        ':mcu-test'
 include ':2712test'
-include ':common-ui-kt'
-include ':common-kt'
-include ':common-download-kt'
-include ':common-https-kt'
+//include ':common-ui-kt'
+//include ':common-kt'
+//include ':common-download-kt'
+//include ':common-https-kt'

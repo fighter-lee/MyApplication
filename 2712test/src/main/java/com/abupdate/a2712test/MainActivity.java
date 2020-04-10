@@ -4,11 +4,14 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
+import com.abup.gear.OTACallback;
 import com.abup.gear.ResultCallback;
 import com.abup.gear.abup_AECU;
 import com.abup.gear.abup_CarState;
 import com.abup.gear.onServiceConnectListener;
 import com.yfvet.fota.FotaImpl;
+
+import java.io.File;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -21,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Log.d(TAG, "onCreate: " + FotaImpl.class.getSimpleName());
 
         fota = FotaImpl.Create(this, new onServiceConnectListener() {
             @Override
@@ -44,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
     }
 
     public void click_test2(View view) {
@@ -61,5 +67,18 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void click_test3(View view) {
+        File file = new File(getFilesDir().getAbsolutePath() + "/mt2712_saic_ep21-ota-192.zip");
+        Log.d(TAG, "click_test3: " + file.exists());
+        fota.getIUpgrade().ecuInstallPackage(0X7A8, 1111, file.getAbsolutePath(), "V1", new OTACallback() {
+            @Override
+            public void onUpgradeProgress(int i, int i1) {
+                Log.d(TAG, "onUpgradeProgress: " + i + "," + i1);
+            }
+
+            @Override
+            public void onUpgradeFinished(int i, int i1) {
+                Log.d(TAG, "onUpgradeFinished: " + i + "," + i1);
+            }
+        });
     }
 }
