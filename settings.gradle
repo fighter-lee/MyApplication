@@ -1,4 +1,4 @@
-//include ':transform',
+include ':app-optimize'//include ':transform',
 //        ':transformlib',
 //        ':autopacker',
 //        ':common',
