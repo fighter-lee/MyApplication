@@ -118,8 +118,3 @@ Debug.stopMethodTracing();
 6. 字符串的连接尽量少用加号(+)；
 7. 重复申请内存的问题（递归函数、读流直接在循环中new对象、onMeause()onLayout()方法中刷新UI ）；
 8. 尽量使用IntentService,而不是Service；
-
-
-//TODO
-可达性分析算法 寻找根节点的方法
-
