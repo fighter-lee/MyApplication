@@ -45,7 +45,7 @@ configurations {
 
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['ota_update_os.jar'])
+    implementation fileTree(dir: 'libs', include: ['ota_update_os.jar','ota_adapter-V2.jar'])
     compileOnly files('libs/classes.jar')
 
     implementation 'androidx.appcompat:appcompat:1.1.0'

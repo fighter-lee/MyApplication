@@ -1,3 +1,6 @@
+include ':moquette'
+include ':mqttandroidclient'
+include ':okdown'
 include ':app-optimize'//include ':transform',
 //        ':transformlib',
 //        ':autopacker',

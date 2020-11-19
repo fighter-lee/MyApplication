@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.abupdate.a2712test"
-    android:sharedUserId="android.uid.system">
+    >
 
-    <uses-permission android:name="android.car.permission.CAR_VENDOR_EXTENSION"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.car.permission.CAR_VENDOR_EXTENSION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -20,6 +20,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <service
+            android:name=".OtaRemoteServer"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.abupdate.lib_ota_adapter.IOtaRemoteService" />
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>

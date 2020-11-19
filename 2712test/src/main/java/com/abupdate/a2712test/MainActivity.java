@@ -15,7 +15,6 @@ import android.widget.TextView;
 import com.abup.gear.OTACallback;
 import com.abup.gear.ResultCallback;
 import com.abup.gear.abup_CarState;
-import com.abup.gear.onServiceConnectListener;
 import com.yfvet.fota.FotaImpl;
 
 import java.io.BufferedReader;
@@ -68,14 +67,14 @@ public class MainActivity extends AppCompatActivity {
 
         Log.d(TAG, "onCreate: " + FotaImpl.class.getSimpleName());
 
-        fota = FotaImpl.Create(this, new onServiceConnectListener() {
-            @Override
-            public void onServiceConnect(int i) {
-                print("yfveApi.fota create success?" + i);
-            }
-        });
-        mCar = Car.createCar(this, mServiceConnection);
-        mCar.connect();
+//        fota = FotaImpl.Create(this, new onServiceConnectListener() {
+//            @Override
+//            public void onServiceConnect(int i) {
+//                print("yfveApi.fota create success?" + i);
+//            }
+//        });
+//        mCar = Car.createCar(this, mServiceConnection);
+//        mCar.connect();
 
     }
 
