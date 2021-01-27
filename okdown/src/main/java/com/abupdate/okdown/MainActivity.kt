@@ -7,6 +7,7 @@ import android.widget.ScrollView
 import androidx.appcompat.app.AppCompatActivity
 import com.abupdate.okdown.DownloadUtil.OnDownloadListener
 import com.abupdate.okdown.DownloadUtil.OnUploadListener
+import com.raise.jni.JniTools
 import kotlinx.android.synthetic.main.activity_main.*
 import okhttp3.*
 import java.io.File
@@ -22,6 +23,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         builder = StringBuilder()
+
+                thread {
+//            val mid = "051M1186020000200200200004"
+            val mid = "051M1185020000200529000002"
+            val sn = "61623031B885BB5F20000000F2DD721D42675DD2F0C209511B837201F3D31C6B8AA04E4A51AA0D6DE1CABA0A6D873311"
+//            val sn = "61623031D8BD615E0000000020000000D083388F77CD9C20C1406A1AB95F94872F45E402DF3A64647952A50C2893BF61E685EE7A"
+            val verifyAbupdateData = JniTools.verifyAbupdateData(mid, mid.length, sn, sn.length)
+            Log.d("xxxxxxxxx", "onCreate: 验证成功吗：${verifyAbupdateData}")
+        }
     }
 
     fun click_download(view: View) {
