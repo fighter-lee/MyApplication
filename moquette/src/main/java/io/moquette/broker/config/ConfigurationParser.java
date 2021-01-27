@@ -21,6 +21,7 @@ import org.slf4j.LoggerFactory;
 
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileReader;
 import java.io.IOException;
 import java.io.Reader;
 import java.nio.charset.StandardCharsets;
@@ -30,7 +31,7 @@ import java.util.Properties;
 
 /**
  * Mosquitto configuration parser.
- *
+ * <p>
  * A line that at the very first has # is a comment Each line has key value format, where the
  * separator used it the space.
  */
@@ -56,7 +57,12 @@ class ConfigurationParser {
             return;
         }
         try {
-            Reader reader = Files.newBufferedReader(file.toPath(), StandardCharsets.UTF_8);
+            Reader reader = null;
+            if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
+                reader = Files.newBufferedReader(file.toPath(), StandardCharsets.UTF_8);
+            } else {
+                reader = new BufferedReader(new FileReader(file));
+            }
             parse(reader);
         } catch (IOException fex) {
             LOG.warn("parsing not existing file {}, fallback on default configuration!", file.getAbsolutePath(), fex);
@@ -66,8 +72,7 @@ class ConfigurationParser {
     /**
      * Parse the configuration
      *
-     * @throws ParseException
-     *             if the format is not compliant.
+     * @throws ParseException if the format is not compliant.
      */
     void parse(Reader reader) throws ParseException {
         if (reader == null) {

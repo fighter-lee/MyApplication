@@ -16,6 +16,8 @@
 
 package io.moquette.broker;
 
+import android.os.Build;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -24,7 +26,6 @@ import java.net.SocketAddress;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Optional;
 import java.util.concurrent.TimeUnit;
 
 import javax.net.ssl.SSLEngine;
@@ -39,6 +40,7 @@ import io.moquette.broker.metrics.MQTTMessageLogger;
 import io.moquette.broker.metrics.MessageMetrics;
 import io.moquette.broker.metrics.MessageMetricsCollector;
 import io.moquette.broker.metrics.MessageMetricsHandler;
+import io.moquette.utils.Optional;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelFuture;
@@ -240,8 +242,8 @@ class NewNettyAcceptor {
             ChannelFuture f = b.bind(host, port);
             LOG.info("Server bound to host={}, port={}, protocol={}", host, port, protocol);
             f.sync()
-                .addListener(new LocalPortReaderFutureListener(protocol))
-                .addListener(FIRE_EXCEPTION_ON_FAILURE);
+                    .addListener(new LocalPortReaderFutureListener(protocol))
+                    .addListener(FIRE_EXCEPTION_ON_FAILURE);
             //TODO java.net.BindException
         } catch (Exception ex) {
             LOG.error("An interruptedException was caught while initializing integration. Protocol={}", protocol, ex);
@@ -250,11 +252,29 @@ class NewNettyAcceptor {
     }
 
     public int getPort() {
-        return ports.computeIfAbsent(PLAIN_MQTT_PROTO, i -> 0);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+            return ports.computeIfAbsent(PLAIN_MQTT_PROTO, i -> 0);
+        } else {
+            Integer integer = ports.get(PLAIN_MQTT_PROTO);
+            if (integer == null) {
+                integer = 0;
+                ports.put(PLAIN_MQTT_PROTO, 0);
+            }
+            return integer;
+        }
     }
 
     public int getSslPort() {
-        return ports.computeIfAbsent(SSL_MQTT_PROTO, i -> 0);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+            return ports.computeIfAbsent(SSL_MQTT_PROTO, i -> 0);
+        } else {
+            Integer integer = ports.get(PLAIN_MQTT_PROTO);
+            if (integer == null) {
+                integer = 0;
+                ports.put(PLAIN_MQTT_PROTO, 0);
+            }
+            return integer;
+        }
     }
 
     private void initializePlainTCPTransport(NewNettyMQTTHandler handler, IConfig props) {
@@ -264,7 +284,7 @@ class NewNettyAcceptor {
         String tcpPortProp = props.getProperty(PORT_PROPERTY_NAME, DISABLED_PORT_BIND);
         if (DISABLED_PORT_BIND.equals(tcpPortProp)) {
             LOG.info("Property {} has been set to {}. TCP MQTT will be disabled", BrokerConstants.PORT_PROPERTY_NAME,
-                     DISABLED_PORT_BIND);
+                    DISABLED_PORT_BIND);
             return;
         }
         int port = Integer.parseInt(tcpPortProp);
@@ -304,7 +324,7 @@ class NewNettyAcceptor {
         if (DISABLED_PORT_BIND.equals(webSocketPortProp)) {
             // Do nothing no WebSocket configured
             LOG.info("Property {} has been setted to {}. Websocket MQTT will be disabled",
-                     BrokerConstants.WEB_SOCKET_PORT_PROPERTY_NAME, DISABLED_PORT_BIND);
+                    BrokerConstants.WEB_SOCKET_PORT_PROPERTY_NAME, DISABLED_PORT_BIND);
             return;
         }
         int port = Integer.parseInt(webSocketPortProp);
@@ -336,7 +356,7 @@ class NewNettyAcceptor {
         if (DISABLED_PORT_BIND.equals(sslPortProp)) {
             // Do nothing no SSL configured
             LOG.info("Property {} has been set to {}. SSL MQTT will be disabled",
-                     BrokerConstants.SSL_PORT_PROPERTY_NAME, DISABLED_PORT_BIND);
+                    BrokerConstants.SSL_PORT_PROPERTY_NAME, DISABLED_PORT_BIND);
             return;
         }
 
@@ -428,7 +448,7 @@ class NewNettyAcceptor {
         MessageMetrics metrics = metricsCollector.computeMetrics();
         BytesMetrics bytesMetrics = bytesMetricsCollector.computeMetrics();
         LOG.info("Metrics messages[read={}, write={}] bytes[read={}, write={}]", metrics.messagesRead(),
-                 metrics.messagesWrote(), bytesMetrics.readBytes(), bytesMetrics.wroteBytes());
+                metrics.messagesWrote(), bytesMetrics.readBytes(), bytesMetrics.wroteBytes());
     }
 
     private ChannelHandler createSslHandler(SocketChannel channel, SslContext sslContext, boolean needsClientAuth) {

@@ -16,10 +16,14 @@
 
 package io.moquette.broker.config;
 
+import android.os.Build;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileReader;
 import java.io.IOException;
 import java.io.Reader;
 import java.nio.file.Files;
@@ -71,7 +75,11 @@ public class FileResourceLoader implements IResourceLoader {
             throw new ResourceIsDirectoryException("File \"" + f + "\" is a directory!");
         }
         try {
-            return Files.newBufferedReader(f.toPath(), UTF_8);
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
+                return Files.newBufferedReader(f.toPath(), UTF_8);
+            }else{
+                return new BufferedReader(new FileReader(f));
+            }
         } catch (IOException e) {
             LOG.error("The file does not exist. Path = {}.", f.getAbsolutePath());
             return null;
