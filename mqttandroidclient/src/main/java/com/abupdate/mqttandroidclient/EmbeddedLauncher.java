@@ -60,6 +60,8 @@ public final class EmbeddedLauncher {
         }
     }
 
+
+
     public static void main() throws InterruptedException, IOException {
         IResourceLoader classpathLoader = new FileResourceLoader(new File("/sdcard/moquette.conf"));
         final IConfig classPathConfig = new ResourceLoaderConfig(classpathLoader);

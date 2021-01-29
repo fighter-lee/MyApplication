@@ -62,6 +62,6 @@ dependencies {
 
     api group: 'commons-codec', name: 'commons-codec', version:'1.10'
 
-    api group: 'org.slf4j', name: 'slf4j-api', version:'1.7.5'
+//    api group: 'org.slf4j', name: 'slf4j-api', version:'1.7.5'
 //    runtime group: 'org.slf4j', name: 'slf4j-log4j12', version:'1.7.5' // only for local tests
 }

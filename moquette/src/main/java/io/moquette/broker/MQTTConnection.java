@@ -22,12 +22,14 @@ import java.net.InetSocketAddress;
 import java.nio.charset.StandardCharsets;
 import java.util.List;
 import java.util.UUID;
+import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicInteger;
 
 import io.moquette.broker.security.IAuthenticator;
 import io.moquette.broker.subscriptions.Topic;
 import io.netty.buffer.ByteBuf;
+import io.netty.buffer.Unpooled;
 import io.netty.channel.Channel;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelPipeline;
@@ -61,6 +63,7 @@ import static io.netty.handler.codec.mqtt.MqttConnectReturnCode.CONNECTION_REFUS
 import static io.netty.handler.codec.mqtt.MqttMessageIdVariableHeader.from;
 import static io.netty.handler.codec.mqtt.MqttQoS.AT_LEAST_ONCE;
 import static io.netty.handler.codec.mqtt.MqttQoS.AT_MOST_ONCE;
+import static java.nio.charset.StandardCharsets.UTF_8;
 
 final class MQTTConnection {
 
@@ -73,6 +76,7 @@ final class MQTTConnection {
     private final PostOffice postOffice;
     private boolean connected;
     private final AtomicInteger lastPacketId = new AtomicInteger(0);
+    private static final List<String> connectClientID = new CopyOnWriteArrayList();
 
     MQTTConnection(Channel channel, BrokerConfiguration brokerConfig, IAuthenticator authenticator,
                    SessionRegistry sessionRegistry, PostOffice postOffice) {
@@ -156,6 +160,8 @@ final class MQTTConnection {
         final String username = payload.userName();
         LOG.trace("Processing CONNECT message. CId={} username: {} channel: {}", clientId, username, channel);
 
+        addClientID(clientId);
+
         if (isNotProtocolVersion(msg, MqttVersion.MQTT_3_1) && isNotProtocolVersion(msg, MqttVersion.MQTT_3_1_1)) {
             LOG.warn("MQTT protocol version is not valid. CId={} channel: {}", clientId, channel);
             abortConnection(CONNECTION_REFUSED_UNACCEPTABLE_PROTOCOL_VERSION);
@@ -203,6 +209,38 @@ final class MQTTConnection {
             LOG.warn("MQTT session for client ID {} cannot be created, channel: {}", clientId, channel);
             abortConnection(CONNECTION_REFUSED_SERVER_UNAVAILABLE);
         }
+    }
+
+    private synchronized void addClientID(String clientID) {
+        String connectMsg = "";
+        if (!connectClientID.contains(clientID)) {
+            LOG.trace("addClientID: " + clientID);
+            connectClientID.add(clientID);
+
+            StringBuffer stringBuffer = new StringBuffer();
+            for (String s : connectClientID) {
+                stringBuffer.append(s)
+                    .append(";");
+            }
+            connectMsg = stringBuffer.toString();
+        }
+
+        MqttPublishVariableHeader varHeader = new MqttPublishVariableHeader("ota/online",111);
+        MqttFixedHeader fixedHeader = new MqttFixedHeader(MqttMessageType.PUBLISH, false, AT_LEAST_ONCE, true, 0);
+        MqttPublishMessage mqttPublishMessage = new MqttPublishMessage(fixedHeader,varHeader, Unpooled.copiedBuffer(connectMsg.getBytes(UTF_8)));
+        channel.writeAndFlush(mqttPublishMessage);
+    }
+
+    private synchronized void removeClientID(String clientID) {
+        if (connectClientID.contains(clientID)) {
+            LOG.trace("removeClientID: " + clientID);
+            connectClientID.remove(clientID);
+        }
+        String clientIdMsg = clientID + "";
+        MqttPublishVariableHeader varHeader = new MqttPublishVariableHeader("ota/offline",112);
+        MqttFixedHeader fixedHeader = new MqttFixedHeader(MqttMessageType.PUBLISH, false, AT_LEAST_ONCE, true, 0);
+        MqttPublishMessage mqttPublishMessage = new MqttPublishMessage(fixedHeader,varHeader, Unpooled.copiedBuffer(clientIdMsg.getBytes(UTF_8)));
+        channel.writeAndFlush(mqttPublishMessage);
     }
 
     private void setupInflightResender(Channel channel) {
@@ -274,6 +312,7 @@ final class MQTTConnection {
         if (clientID == null || clientID.isEmpty()) {
             return;
         }
+        removeClientID(clientID);
         LOG.info("Notifying connection lost event. CId: {}, channel: {}", clientID, channel);
         Session session = sessionRegistry.retrieve(clientID);
         if (session.hasWill()) {
@@ -307,6 +346,7 @@ final class MQTTConnection {
 
     void processDisconnect(MqttMessage msg) {
         final String clientID = NettyUtils.clientID(channel);
+        removeClientID(clientID);
         LOG.trace("Start DISCONNECT CId={}, channel: {}", clientID, channel);
         if (!connected) {
             LOG.info("DISCONNECT received on already closed connection, CId={}, channel: {}", clientID, channel);
